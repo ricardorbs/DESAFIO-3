@@ -1,0 +1,131 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233D;
+    cursor: pointer;
+    margin: 47px 0 0 42px;
+}
+
+.link-button {
+    font-weight: 400;
+    font-size: 14px;
+    background: #6FBF44;
+    border: #4CB538;
+    color: #ffffff;
+    cursor: pointer;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    margin-left: 32px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #4B505A;
+    width: 493px;
+    word-spacing: 1px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6FBF44;
+    background: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+
+.logo-image {
+    width: 595px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+button:hover {
+    opacity: .5;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+main {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+@media screen and (max-width: 900px) {
+
+    section {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .link-header {
+        display: none;
+    }
+
+    .link-button {
+        position: absolute;
+        right: -110px;
+        margin-top: 15px;
+        width: 91px;
+        height: 31px;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0 7px;
+        order: 1;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        width: auto;
+        text-align: center;
+        margin: 124px 54px 0 57px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        width: auto;
+        text-align: center;
+        margin: 29px 43px 0 43px;
+    }
+
+    button {
+        text-align: center;
+        width: auto;
+        margin: 26px 129px 0 129px;
+    }
+
+    .logo-image {
+        display: block;   
+        max-width: 70%;
+        height: 50%;
+        margin: 75px 63px;
+        padding: 0;
+        order: 2;
+    }
+
+}
